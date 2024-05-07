@@ -9,5 +9,20 @@ console.log(typeof name);
 var cond = true;
 console.log(typeof cond);
 var err = "My name is sheikh"
-console.log(err.toLocaleUpperCase());
-console.log(err.indexOf('is'));
+console.log(err.toLocaleUpperCase()); //capital or small letter
+console.log(err.indexOf('is')); // search korar jonno
+console.log(err.split('i'));  //line break or split korar jonno use korte hoi
+
+var number1 = 20;
+var number2 = 25.5;
+console.log(number1 + number2);
+
+var num1 = 20;
+var num2 = '25.5';
+console.log(num1 + num2); //string add hoina ,pase bose
+
+var num3 = 20;
+var num4 = '25.5';
+num4 = parseFloat(num4); // string ta number e convert hoi,parseint o kora jai or +num4 korleo hoi.''+num4 eta korle string e convert hoi
+console.log(num3 + num4);
+
