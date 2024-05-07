@@ -32,3 +32,18 @@ var num6 =0.5;
 var total = num5 + num6;
 total = total.toFixed(5); // decimal er pore koita digit hobe seta fixed korar jonno use korte hoi.
 console.log(total);
+
+
+var price1 = 37;
+var price2 = 29;
+var total = price1 * price2;
+console.log(total);
+
+var name1 = 'Steve';
+var name2 = 'Jobs';
+var result = name1 + ' ' + name2; // string gulo gap dea dekhate use korte hoi
+console.log(result);
+
+var num23 = -76;
+var result = Math.abs(num23); // negative hok or positive hok absolute likhle positive show korbe.
+console.log(result);
