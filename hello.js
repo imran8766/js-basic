@@ -26,3 +26,9 @@ var num4 = '25.5';
 num4 = parseFloat(num4); // string ta number e convert hoi,parseint o kora jai or +num4 korleo hoi.''+num4 eta korle string e convert hoi
 console.log(num3 + num4);
 
+
+var num5 = 0.7;
+var num6 =0.5;
+var total = num5 + num6;
+total = total.toFixed(5); // decimal er pore koita digit hobe seta fixed korar jonno use korte hoi.
+console.log(total);
