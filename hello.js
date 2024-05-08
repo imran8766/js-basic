@@ -47,3 +47,11 @@ console.log(result);
 var num23 = -76;
 var result = Math.abs(num23); // negative hok or positive hok absolute likhle positive show korbe.
 console.log(result);
+
+var number = 7.698;
+var total = Math.round(number); //number round figure e dekhanor jonno round
+console.log(total);
+
+var number = 7.398;
+var total = Math.ceil(number); // ceil or floor-value kom asbe number round figure e dekhanor decimal asle next value dekhai
+console.log(total);
